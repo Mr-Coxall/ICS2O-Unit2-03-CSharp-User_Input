@@ -5,16 +5,17 @@
 
 using System;
 
-class Program 
+class Program
 {
-    public static void Main (string[] args) {
-    	// This function does addition
-	    string firstName;
-	    int age;
-        
-        Console.WriteLine ("This program gets a user's name and age.");
-        Console.WriteLine ("");
-        
+    public static void Main(string[] args)
+    {
+        // This function accepts user input
+        string firstName;
+        int age;
+
+        Console.WriteLine("This program gets a user's name and age.");
+        Console.WriteLine("");
+
         Console.Write("Enter your first name: ");
         firstName = Console.ReadLine();
         Console.Write("Enter your age: ");
